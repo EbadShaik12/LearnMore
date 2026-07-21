@@ -1,0 +1,27 @@
+/* Global CSS reset to override index.css */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: #f1f2f7;
+  background: #0d0f14;
+}
+
+#root {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  border: none !important;
+  text-align: left !important;
+  display: block !important;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-weight: 700;
+  color: #f1f2f7;
+}
