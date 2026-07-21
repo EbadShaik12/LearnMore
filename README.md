@@ -1,6 +1,6 @@
-# 🎓 LearnSphere - Full-Stack E-Learning Platform
+# 🎓 LearnMore - Full-Stack E-Learning Platform
 
-**LearnSphere** is a feature-rich, responsive Learning Management System (LMS) designed to bridge the gap between students and educators. It provides a seamless, animated, and interactive environment for course management, learning progression, and student engagement.
+**LearnMore** is a feature-rich, responsive Learning Management System (LMS) designed to bridge the gap between students and educators. It provides a seamless, animated, and interactive environment for course management, learning progression, and student engagement.
 
 ## 🚀 Key Features
 
