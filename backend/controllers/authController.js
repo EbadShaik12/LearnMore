@@ -3,7 +3,10 @@ const User = require('../models/User');
 
 // Helper to generate JWT token
 const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET || 'supersecretkeylearnsphere12345', {
+  if (!process.env.JWT_SECRET) {
+    throw new Error('JWT_SECRET is not configured in environment variables');
+  }
+  return jwt.sign({ id }, process.env.JWT_SECRET, {
     expiresIn: '30d',
   });
 };
